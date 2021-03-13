@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -60,7 +61,12 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          <Image
+            src="/images/profile.png" // Route of the image file
+            height={183.2} // Desired size with correct aspect ratio
+            width={300} // Desired size with correct aspect ratio
+            alt="Your Name"
+          />
         </a>
       </footer>
 
