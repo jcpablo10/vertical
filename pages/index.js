@@ -9,7 +9,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi!, I'm frontend developer at CA</p>
+        <p>Text test</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="#">our Next.js tutorial</a>.)
